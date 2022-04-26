@@ -1,0 +1,1245 @@
+[2022-04-22T21:38:24.577] [INFO] default - Initialized logger {
+  pid: 12906,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-22T21:38:24.590] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-22T20:38:24.589Z
+[2022-04-22T21:38:24.590] [INFO] default - 
+[2022-04-22T21:38:25.119] [INFO] default - Initialized logger {
+  pid: 12907,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-22T21:38:25.566] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-22T21:38:32.442] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-22T21:38:34.208] [INFO] default - Allure report successfully generated
+[2022-04-22T21:38:34.208] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-22T21:38:34.208] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 2a5c59e9-37c0-4e01-abda-81cd8cb332f6
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (4.2s)[39m
+
+[2022-04-22T21:38:34.210] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:09 
+
+[2022-04-22T21:39:11.081] [INFO] default - Initialized logger {
+  pid: 12951,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-22T21:39:11.095] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-22T20:39:11.094Z
+[2022-04-22T21:39:11.095] [INFO] default - 
+[2022-04-22T21:39:11.507] [INFO] default - Initialized logger {
+  pid: 12952,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-22T21:39:11.959] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-22T21:39:18.689] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-22T21:39:20.561] [INFO] default - Allure report successfully generated
+[2022-04-22T21:39:20.562] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-22T21:39:20.563] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 94eeb833-96bc-4cfc-b4a9-9e5e2768a661
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (4.2s)[39m
+
+[2022-04-22T21:39:20.563] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:09 
+
+[2022-04-23T08:50:57.137] [INFO] default - Initialized logger {
+  pid: 13610,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T08:50:57.164] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T07:50:57.164Z
+[2022-04-23T08:50:57.164] [INFO] default - 
+[2022-04-23T08:50:57.671] [INFO] default - Initialized logger {
+  pid: 13611,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T08:50:58.596] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:51:11.314] [INFO] default - [0-0] [31mError[39m in "0: Given I launch the poke search website"
+[31mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[31m    at Timeout.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cucumber-framework/node_modules/@cucumber/cucumber/lib/time.js:64:20)[39m
+[31m    at listOnTimeout (node:internal/timers:557:17)[39m
+[31m    at processTimers (node:internal/timers:500:7)[39m
+[2022-04-23T08:51:21.161] [INFO] default - [0-0] [31mError[39m in "2: Then An error message will be displayed reading "No Pokémon found!""
+[31mError: AssertionError: expected [] to equal 'No Pokémon found!'[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:32:14[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeErrorMessage (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:26:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:17:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeErrorMessage (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:26:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:17:3)[39m
+[2022-04-23T08:51:25.935] [INFO] default - [0-0] [31mError[39m in "3: Then A dropdown of valid results should be displayed"
+[31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[31m    at runMicrotasks (<anonymous>)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[2022-04-23T08:51:27.135] [INFO] default - [0-0] [1m[31mFAILED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:51:30.572] [INFO] default - Allure report successfully generated
+[2022-04-23T08:51:30.574] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T08:51:30.574] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 9a8f377f-e67f-4add-9b6d-872d56512418
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m13 passing (25.8s)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [31m3 failing[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 1) Searching with non alphabetical characters Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Timeout.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cucumber-framework/node_modules/@cucumber/cucumber/lib/time.js:64:20)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at listOnTimeout (node:internal/timers:557:17)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTimers (node:internal/timers:500:7)[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 2) Searching with non available content Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: expected [] to equal 'No Pokémon found!'[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: expected [] to equal 'No Pokémon found!'[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:32:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeErrorMessage (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:26:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:17:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeErrorMessage (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:26:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:17:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 3) Searching with a valid content Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at runMicrotasks (<anonymous>)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+
+[2022-04-23T08:51:30.576] [INFO] default - 
+Spec Files:	 [32m0 passed[39m, [31m1 failed[39m, 1 total (100% completed) in 00:00:33 
+
+[2022-04-23T08:52:12.050] [INFO] default - Initialized logger {
+  pid: 13662,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T08:52:12.076] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T07:52:12.075Z
+[2022-04-23T08:52:12.076] [INFO] default - 
+[2022-04-23T08:52:12.487] [INFO] default - Initialized logger {
+  pid: 13663,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T08:52:13.645] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:52:20.181] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:52:24.193] [INFO] default - Allure report successfully generated
+[2022-04-23T08:52:24.194] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T08:52:24.195] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 29ce264c-6196-4061-bc5e-4a6ccf09205c
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (4.4s)[39m
+
+[2022-04-23T08:52:24.195] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:12 
+
+[2022-04-23T08:55:04.853] [INFO] default - Initialized logger {
+  pid: 13766,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T08:55:04.872] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T07:55:04.871Z
+[2022-04-23T08:55:04.872] [INFO] default - 
+[2022-04-23T08:55:05.290] [INFO] default - Initialized logger {
+  pid: 13768,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T08:55:06.438] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:55:12.887] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T08:55:17.731] [INFO] default - Allure report successfully generated
+[2022-04-23T08:55:17.731] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T08:55:17.731] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: f1021286-8f06-4cc1-9344-a596b1b3760b
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (4.1s)[39m
+
+[2022-04-23T08:55:17.732] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:12 
+
+[2022-04-23T09:00:48.017] [INFO] default - Initialized logger {
+  pid: 13894,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:00:48.039] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:00:48.039Z
+[2022-04-23T09:00:48.039] [INFO] default - 
+[2022-04-23T09:00:48.469] [INFO] default - Initialized logger {
+  pid: 13895,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:00:49.650] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:01:00.109] [INFO] default - [0-0] [31mError[39m in "4: Then A dropdown of valid results should be displayed"
+[31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[2022-04-23T09:01:04.952] [INFO] default - [0-0] [31mError[39m in "5: Then A dropdown of valid results should be displayed"
+[31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[31m    at runMicrotasks (<anonymous>)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[2022-04-23T09:01:09.576] [INFO] default - [0-0] [31mError[39m in "6: Then A dropdown of valid results should be displayed"
+[31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[31m    at runMicrotasks (<anonymous>)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[2022-04-23T09:01:09.715] [INFO] default - [0-0] [1m[31mFAILED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:01:14.730] [ERROR] default - [90m2022-04-23T08:01:14.727Z[39m [31mERROR[39m [97m@wdio/cli:utils[39m: Error in onCompleteHook: Error: Could not generate Allure report
+    at Object.onComplete (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/wdio.conf.js:68:25)
+    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:96:19
+    at Array.map (<anonymous>)
+    at runOnCompleteHook (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:94:39)
+    at Launcher.run (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/launcher.js:96:75)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-04-23T09:01:14.732] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:01:14.732] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: b4390d41-159e-4474-b12a-9a1741cf9aa4
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "Hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "Beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "Mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (17.4s)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [31m3 failing[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 1) View result information Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 2) View result information Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at runMicrotasks (<anonymous>)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 3) View result information Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at runMicrotasks (<anonymous>)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+
+[2022-04-23T09:01:14.742] [INFO] default - 
+Spec Files:	 [32m0 passed[39m, [31m1 failed[39m, 1 total (100% completed) in 00:00:26 
+
+[2022-04-23T09:02:04.837] [INFO] default - Initialized logger {
+  pid: 13943,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:02:04.860] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:02:04.860Z
+[2022-04-23T09:02:04.860] [INFO] default - 
+[2022-04-23T09:02:05.262] [INFO] default - Initialized logger {
+  pid: 13945,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:02:06.435] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:02:14.213] [INFO] default - [0-0] [31mError[39m in "0: Then A dropdown of valid results should be displayed"
+[31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[31m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[31m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[31m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[31m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[31m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[2022-04-23T09:02:14.371] [INFO] default - [0-0] [1m[31mFAILED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:02:19.381] [ERROR] default - [90m2022-04-23T08:02:19.380Z[39m [31mERROR[39m [97m@wdio/cli:utils[39m: Error in onCompleteHook: Error: Could not generate Allure report
+    at Object.onComplete (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/wdio.conf.js:68:25)
+    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:96:19
+    at Array.map (<anonymous>)
+    at runOnCompleteHook (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:94:39)
+    at Launcher.run (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/launcher.js:96:75)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-04-23T09:02:19.382] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:02:19.382] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 64ca5f97-9fdb-4bb6-9251-333bb990845d
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "Hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m2 passing (5.5s)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [31m1 failing[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 1) View result information Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: AssertionError: No search result was found: expected +0 to be at least 1[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:42:14[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async retry (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:90:25)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:104:11)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Function.waitUntil (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/actions.page.js:105:13)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async PokeSearchPage.shouldSeeResults (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/pages/poke-search.page.js:37:5)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at async World.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/step-definitions/poke-search.steps.js:21:3)[39m
+
+[2022-04-23T09:02:19.383] [INFO] default - 
+Spec Files:	 [32m0 passed[39m, [31m1 failed[39m, 1 total (100% completed) in 00:00:14 
+
+[2022-04-23T09:03:08.626] [INFO] default - Initialized logger {
+  pid: 13992,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:03:08.639] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:03:08.639Z
+[2022-04-23T09:03:08.639] [INFO] default - 
+[2022-04-23T09:03:09.034] [INFO] default - Initialized logger {
+  pid: 13993,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:03:09.471] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:03:13.297] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:03:16.552] [INFO] default - Allure report successfully generated
+[2022-04-23T09:03:16.553] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:03:16.553] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: a732841d-c597-4d3b-94cc-7e543d970118
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m6 passing (1.9s)[39m
+
+[2022-04-23T09:03:16.554] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:07 
+
+[2022-04-23T09:03:27.457] [INFO] default - Initialized logger {
+  pid: 14034,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:03:27.470] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:03:27.470Z
+[2022-04-23T09:03:27.470] [INFO] default - 
+[2022-04-23T09:03:27.868] [INFO] default - Initialized logger {
+  pid: 14035,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:03:28.298] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:03:32.069] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:03:35.433] [INFO] default - Allure report successfully generated
+[2022-04-23T09:03:35.434] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:03:35.434] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 8324c7fa-d8bd-42ae-a6fe-4902f714932f
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m6 passing (1.8s)[39m
+
+[2022-04-23T09:03:35.434] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:07 
+
+[2022-04-23T09:05:27.792] [INFO] default - Initialized logger {
+  pid: 14090,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:05:27.815] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:05:27.815Z
+[2022-04-23T09:05:27.816] [INFO] default - 
+[2022-04-23T09:05:28.239] [INFO] default - Initialized logger {
+  pid: 14091,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:05:29.263] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:05:33.306] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:05:38.313] [ERROR] default - [90m2022-04-23T08:05:38.312Z[39m [31mERROR[39m [97m@wdio/cli:utils[39m: Error in onCompleteHook: Error: Could not generate Allure report
+    at Object.onComplete (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/ui/wdio.conf.js:68:25)
+    at /Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:96:19
+    at Array.map (<anonymous>)
+    at runOnCompleteHook (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/utils.js:94:39)
+    at Launcher.run (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cli/build/launcher.js:96:75)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-04-23T09:05:38.314] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:05:38.314] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: a4b127a9-6f99-4481-af28-0438a8d44295
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m6 passing (1.8s)[39m
+
+[2022-04-23T09:05:38.314] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:10 
+
+[2022-04-23T09:05:38.423] [INFO] default - Allure report successfully generated
+[2022-04-23T09:05:58.654] [INFO] default - Initialized logger {
+  pid: 14143,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:05:58.670] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:05:58.670Z
+[2022-04-23T09:05:58.670] [INFO] default - 
+[2022-04-23T09:05:59.088] [INFO] default - Initialized logger {
+  pid: 14144,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:05:59.539] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:06:05.373] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:06:10.090] [INFO] default - Allure report successfully generated
+[2022-04-23T09:06:10.092] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:06:10.092] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 3f3759d4-bfd1-435e-8055-9c7770ab1cfa
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m18 passing (3.7s)[39m
+
+[2022-04-23T09:06:10.093] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:11 
+
+[2022-04-23T09:07:02.502] [INFO] default - Initialized logger {
+  pid: 14185,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:07:02.521] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:07:02.521Z
+[2022-04-23T09:07:02.522] [INFO] default - 
+[2022-04-23T09:07:02.932] [INFO] default - Initialized logger {
+  pid: 14186,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:07:03.375] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:07:12.382] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:07:16.915] [INFO] default - Allure report successfully generated
+[2022-04-23T09:07:16.915] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:07:16.916] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: f595ecfd-9d00-4ac8-b419-267b4af38ac8
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m30 passing (6.4s)[39m
+
+[2022-04-23T09:07:16.917] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:14 
+
+[2022-04-23T09:09:21.864] [INFO] default - Initialized logger {
+  pid: 14241,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T09:09:21.877] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T08:09:21.877Z
+[2022-04-23T09:09:21.877] [INFO] default - 
+[2022-04-23T09:09:22.280] [INFO] default - Initialized logger {
+  pid: 14242,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T09:09:22.721] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:09:31.720] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T09:09:36.039] [INFO] default - Allure report successfully generated
+[2022-04-23T09:09:36.040] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T09:09:36.041] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: f03e7e21-73af-495a-8fe2-308b0e9263a2
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters for "PokéDex!
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters for "123456678
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for hattrem
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for beautify
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for mew
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m30 passing (7s)[39m
+
+[2022-04-23T09:09:36.042] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:14 
+
+[2022-04-23T10:05:40.359] [INFO] default - Initialized logger {
+  pid: 14995,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T10:05:40.380] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T09:05:40.379Z
+[2022-04-23T10:05:40.380] [INFO] default - 
+[2022-04-23T10:05:40.798] [INFO] default - Initialized logger {
+  pid: 14996,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T10:05:41.618] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:05:54.060] [INFO] default - [0-0] [31mError[39m in "0: Given I launch the poke search website"
+[31mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[31m    at Timeout.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cucumber-framework/node_modules/@cucumber/cucumber/lib/time.js:64:20)[39m
+[31m    at listOnTimeout (node:internal/timers:557:17)[39m
+[31m    at processTimers (node:internal/timers:500:7)[39m
+[2022-04-23T10:06:02.527] [INFO] default - [0-0] [1m[31mFAILED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:06:07.443] [INFO] default - Allure report successfully generated
+[2022-04-23T10:06:07.443] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T10:06:07.444] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 5d5a33b7-05b6-43e3-a353-1a31e7d5d8d0
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "PokéDex!
+[Chrome 100.0.4896.127 darwin #0-0]    [31m✖[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [36m?[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "123456678
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for hattrem
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for beautify
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for mew
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m27 passing (18.4s)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [31m1 failing[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] 1) Searching with non alphabetical characters "PokéDex! Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0] [31mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mError: function timed out, ensure the promise resolves within 10000 milliseconds[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at Timeout.<anonymous> (/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/cucumber-framework/node_modules/@cucumber/cucumber/lib/time.js:64:20)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at listOnTimeout (node:internal/timers:557:17)[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90m    at processTimers (node:internal/timers:500:7)[39m
+
+[2022-04-23T10:06:07.445] [INFO] default - 
+Spec Files:	 [32m0 passed[39m, [31m1 failed[39m, 1 total (100% completed) in 00:00:27 
+
+[2022-04-23T10:09:49.508] [INFO] default - Initialized logger {
+  pid: 15068,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T10:09:49.521] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T09:09:49.521Z
+[2022-04-23T10:09:49.521] [INFO] default - 
+[2022-04-23T10:09:49.917] [INFO] default - Initialized logger {
+  pid: 15069,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T10:09:50.411] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:09:59.308] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:10:01.949] [INFO] default - Allure report successfully generated
+[2022-04-23T10:10:01.950] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T10:10:01.950] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 46f45498-2c52-458f-8815-15bb2cc9d875
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "PokéDex!
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "123456678
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for hattrem
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for beautify
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for mew
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m30 passing (6.8s)[39m
+
+[2022-04-23T10:10:01.951] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:12 
+
+[2022-04-23T10:25:04.022] [INFO] default - Initialized logger {
+  pid: 15265,
+  channel: false,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/.bin/wdio'
+}
+[2022-04-23T10:25:04.038] [INFO] default - [1m[22m
+[1mExecution of [34m1[39m workers started at[22m 2022-04-23T09:25:04.037Z
+[2022-04-23T10:25:04.038] [INFO] default - 
+[2022-04-23T10:25:04.442] [INFO] default - Initialized logger {
+  pid: 15266,
+  channel: true,
+  argv1: '/Users/adebayomakanjuola/WebstormProjects/MettleAutomation/node_modules/@wdio/local-runner/build/run.js'
+}
+[2022-04-23T10:25:04.874] [INFO] default - [0-0] [1m[36mRUNNING[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:25:13.332] [INFO] default - [0-0] [1m[32mPASSED[39m[22m in chrome - /ui/features/poke-search.feature
+[2022-04-23T10:25:17.309] [INFO] default - Allure report successfully generated
+[2022-04-23T10:25:17.310] [INFO] default - 
+ [1m[35m"spec" Reporter:[39m[22m
+[2022-04-23T10:25:17.310] [INFO] default - ------------------------------------------------------------------
+[Chrome 100.0.4896.127 darwin #0-0] Running: Chrome (v100.0.4896.127) on darwin
+[Chrome 100.0.4896.127 darwin #0-0] Session ID: 99db8395-5e43-46db-a0fd-08cf7ca217c2
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] » /ui/features/poke-search.feature
+[Chrome 100.0.4896.127 darwin #0-0] Poke Search
+[Chrome 100.0.4896.127 darwin #0-0] [90mAs a user of product owner[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mI should be able to search for various poke items[39m
+[Chrome 100.0.4896.127 darwin #0-0] [90mso i can view the information about search on the page[39m
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "PokéDex!
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "PokéDex!"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non alphabetical characters "123456678
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "123456678"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "Invalid search term"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with non available content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "bbc"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then An error message will be displayed reading "No Pokémon found!"
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] Searching with a valid content
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "aron"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for hattrem
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "hattrem"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for beautify
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "beautify"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] View result information for mew
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Given I launch the poke search website
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I search using "mew"
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then A dropdown of valid results should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m When I select a result
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m Then The user should be on the result page
+[Chrome 100.0.4896.127 darwin #0-0]    [32m✓[39m And The below information sections should be displayed
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]      │ name │ picture │ description │ stats │ evolution │
+[Chrome 100.0.4896.127 darwin #0-0]
+[Chrome 100.0.4896.127 darwin #0-0] [32m30 passing (6.4s)[39m
+
+[2022-04-23T10:25:17.311] [INFO] default - 
+Spec Files:	 [32m1 passed[39m, 1 total (100% completed) in 00:00:13 
+
